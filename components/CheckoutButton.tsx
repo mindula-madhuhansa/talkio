@@ -59,6 +59,14 @@ function CheckoutButton() {
   return (
     <div className="flex flex-col space-y-2">
       {/* If subscribed show me the user is subscribed */}
+      {isSubscribed && (
+        <>
+          <hr className="mt-5" />
+          <p className="pt-5 text-center text-xs text-blue-600">
+            You are subscribed to PRO
+          </p>
+        </>
+      )}
 
       <div className="mt-8 block rounded-md bg-[#1e5eec] px-3.5 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-[#2879EF] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1e5eec] cursor-pointer">
         {isSubscribed ? (

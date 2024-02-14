@@ -36,7 +36,7 @@ function ChatListRow({ chatId }: { chatId: string }) {
         <p className="font-bold">
           {!message && "New Chat"}
           {message &&
-            [message?.user.name || session?.user.name].toString().split(" "[0])}
+            [message?.user.name || session?.user.name].toString().split(" ")[0]}
         </p>
 
         <p className="text-gray-400 line-clamp-1">
