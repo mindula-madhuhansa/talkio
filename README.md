@@ -33,7 +33,3 @@ Speak freely in your language, they'll respond in theirs. Let AI handle the tran
 ![Desktop](./screenshots/chats.png)
 ![Desktop](./screenshots/newchat.png)
 ![Desktop](./screenshots/chatscreen.png)
-
-## 🙏 Special Thanks
-
-**This project was completed with the help of [Complete SaaS by Sonny Sangha](https://youtu.be/OOUsvDOKlGs).**
